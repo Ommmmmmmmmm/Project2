@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/836187b299.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+       <div id="header">
+       <div class="container">
+        <nav>
+            <img src="Images/logo.png" class="logo">
+            <ul> 
+                <li><a href="#" >Home</a></li>
+                <li><a href="#" >About</a></li>
+                <li><a href="#" >Services</a></li>
+                <li><a href="#" >Portfolio</a></li>
+                <li><a href="#" >Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>It Developer </p>
+            <h1>Hi, I'm <span>Om Mahato</span><br> From USA</h1>
+        </div>
+       </div>
+        </div> 
+<!--------------------about------------------>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Images/om.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            Hello, I'm Om Prakash Mahato, an ambitious individual
+                             dedicated to continual growth and learning. 
+                              I have a solid foundation in the basics of Python,
+                               Django, Java, and Android development. 
+                               I am actively exploring Web development and 
+                               Android development to stay abreast of industry
+                                trends. I take pride in my hands-on approach, 
+                                evident in projects like building an article-posting 
+                                website ( http://ommahato.com.np/ ).
+                                 Embracing diversity and aiming for a global impact,
+                                  I am eager to connect, collaborate, and explore new
+                                   opportunities.
+                             Let's connect and chart a course for success together! 🚀
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Designing</span><br>Logo and Graphic designing</li>
+                                <li><span>App Development</span><br>Android Development</li>
+                                <li><span>Web Development</span><br>Web Development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Designing</span><br>Designed logo for NSA</li>
+                                <li><span>Tutor</span><br>Teacher for about 6 month.</li>
+                                <li><span>Web Development</span><br>Designed my website http://ommahato.com.np/ </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Undergrad</span><br>Studying at TAMUT</li>
+                                <li><span>High School</span><br>CCRC</li>
+                                <li><span>School</span><br>MVM</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                 
+            </div>
+        </div>
+        <!-----------------------services-------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                    Visit at my webpage - http://ommahato.com.np/
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-joomla"></i>
+                <h2>Logo Design</h2>
+                <p>
+                    Visit at my Logos - http://ommahato.com.np/
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile"></i>
+                <h2>App Design</h2>
+                <p>
+                    Visit at my Apps - http://ommahato.com.np/
+                </p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--------------------------Life-------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Life</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-2.jpg" >
+            </div>
+            <div class="work">
+                <img src="Images/work-3.jpg" >
+            </div>
+            <div class="work">
+                <img src="Images/work-4.jpg" >
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------contact  -------------->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1> 
+                <p><i class="fa-regular fa-paper-plane"></i>  omprakashmahato236@gmail.com</p>
+            
+            <div class="social-icons">
+                <a href="hhtps://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+            </div>
+            <a href="Images/mycv.pdf" class="btn btn2">Download CV</a> 
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+
+            </form>
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>
+            Copyright <i class="fa-regular fa-copyright"></i> Om Prakash Mahato </i>
+        </p>
+    </div>
+ </div>
+ <script>
+            var tablinks = document.getElementsByClassName("tab-links")
+            var tabcontents = document.getElementsByClassName("tab-contents")
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+
+        </script>
+
+    </body>
+</html>
+ 
